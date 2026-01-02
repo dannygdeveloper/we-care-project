@@ -1,0 +1,152 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    color: #989D9C;
+    line-height: 100%;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.header-button {
+    background-color: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41.5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.box-1 {
+    display: inline-block;
+    margin: 144px 0 0 125px
+}
+
+.box {
+    display: inline-block;
+    border-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    width: 515px;
+    color: #515151;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+button {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background-color: #ADFF00;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    main {
+        margin: 0;
+    }
+
+    header {
+        display: none;
+    }
+
+    .box-1 {
+        width: 100vw;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    .box {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    img {
+        max-width: 75%;
+        max-height: 75%;
+        margin: 149px 50px 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 10px;
+        height: 52px;
+    }
+
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    p {
+        display: none;
+    }
+   
+    button {
+        margin: 0px auto;
+        display: block;
+        width: 207px;
+        height: 51px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (max-width: 340px) {
+    img {
+        padding-bottom: 25px;
+    }
+}
+        
+    
